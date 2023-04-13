@@ -405,7 +405,7 @@ h6 {
   }
   #hero .mohtava {
     background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(2, 4, 31, 0.123);
     backdrop-filter: blur( 0.5px );
     -webkit-backdrop-filter: blur( 0.5px );
     border-radius: 10px;
