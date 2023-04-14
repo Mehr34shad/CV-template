@@ -350,24 +350,6 @@ h6 {
   font-size: 26px;
   font-family: "Samim", "Poppins", sans-serif;
 }
-
-#hero h1,
-#hero h3 {
-  background: linear-gradient(
-    to right,
-    #7953cd 20%,
-    #00affa 30%,
-    #0190cd 70%,
-    #764ada 80%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* text-fill-color: transparent; */
-  background-size: 500% auto;
-  animation: textShine 5s ease-in-out infinite alternate;
-}
-
 @keyframes textShine {
   0% {
     background-position: 0% 50%;
@@ -403,15 +385,6 @@ h6 {
     text-align: center;
     background-position: center;
   }
-  #hero .mohtava {
-    background: rgba( 255, 255, 255, 0.1 );
-    box-shadow: 0 8px 32px 0 rgba(2, 4, 31, 0.123);
-    backdrop-filter: blur( 0.5px );
-    -webkit-backdrop-filter: blur( 0.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-  }
-
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
@@ -427,12 +400,11 @@ h6 {
     line-height: 24px;
   }
   #hero .social-links a {
-    /* color: #2d2727; */
     color: #f0eb8d;
   }
   #hero h1,
   #hero h3 {
-    color: red !important;
+   color: #fff;
   }
 }
 
