@@ -1,0 +1,20 @@
+// 20230417094323
+// https://mohamadbinandeh.ir/manifest.json
+
+{
+  "short_name": "محمد بیننده",
+  "name": "محمد بیننده",
+  "description": "وب سایت شخصی محمد بیننده",
+  "icons": [
+    {
+     
+      "src": "./assets/img/apple-touch-icon.png",
+      "sizes": "50x50",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "background_color": "#fff"
+}
